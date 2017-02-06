@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=LOVEGame
+Comment=A Description of LOVEGame
+Exec=lovegame
+Icon=${SNAP}/meta/gui/lovegame.png
+Terminal=false
+Type=Application
+Categories=Game;Simulation;
+GenericName=
+Keywords=game

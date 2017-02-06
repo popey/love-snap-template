@@ -1,0 +1,57 @@
+name: lovegame
+version: "0.1"
+summary: A Description of LÖVEGame
+description: |
+  A longer description of LÖVEGame.
+
+confinement: strict
+grade: stable
+
+apps:
+  lovegame:
+    command: bin/launch_lovegame
+    plugs:
+      - pulseaudio
+      - x11
+      - network
+      - network-bind
+      - opengl
+
+parts:
+#  love0.10.2:
+#    plugin: copy
+#    source: https://bitbucket.org/rude/love/downloads/love_0.10.2ppa1_amd64.deb
+#  liblove0.10.2:
+#    plugin: copy
+#    source: https://bitbucket.org/rude/love/downloads/liblove0_0.10.2ppa1_amd64.deb
+#  love0.10.1:
+#    plugin: copy
+#    source: https://bitbucket.org/rude/love/downloads/love_0.10.1ppa1_amd64.deb
+#  liblove0.10.1:
+#    plugin: copy
+#    source: https://bitbucket.org/rude/love/downloads/liblove0_0.10.1ppa1_amd64.deb
+#  love0.10.0:
+#    plugin: copy
+#    source: https://bitbucket.org/rude/love/downloads/love_0.10.0ppa1_amd64.deb
+#  liblove0.10.0:
+#    plugin: copy
+#    source: https://bitbucket.org/rude/love/downloads/liblove0_0.10.0ppa1_amd64.deb
+  love0.9.1:
+    plugin: dump
+    source: https://bitbucket.org/rude/love/downloads/love_0.9.1_amd64.deb
+  liblove0.9.1:
+    plugin: dump
+    source: https://bitbucket.org/rude/love/downloads/liblove_0.9.1_amd64.deb
+  lovegame:
+    plugin: dump
+    source: ./lovegame/
+    stage-packages:
+      - libgl1-mesa-dri
+      - libgl1-mesa-glx
+      - libglew1.13
+      - lua-socket
+  launcher:
+    plugin: dump
+    source: ./launcher
+    organize:
+      'launch_lovegame': 'bin/launch_lovegame'
