@@ -35,7 +35,7 @@ Run it either by searching for your application in the menu, or from the command
 
 ## Template Contents
 
-Below are (I think) a comprehensive overview of the files contained in this repo along with how they should be modified for any given LÖVE game.
+Below is (I think) a comprehensive overview of the files contained in this repo along with how they should be modified for any given LÖVE game.
 
 Once you're happy with the changes, run ```snapcraft``` from the top level directory on an Ubuntu 16.04 system to build a snap.
 
