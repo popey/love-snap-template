@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This template is designed to make it easier for developers of games based on LÖVE to package them up as snaps.
+This template is designed to make it easier for developers of games based on [LÖVE](https://love2d.org/) to package them up as snaps.
 
 [Snaps](http/snapcraft.io/) allow you to "_Package any app for every Linux desktops, server, cloud or device, and deliver updates directly._"
 
