@@ -50,6 +50,17 @@ parts:
       - libgl1-mesa-glx
       - libglew1.13
       - lua-socket
+      - libluajit-5.1-2
+      - libsdl2-2.0-0
+      - libopenal1
+      - libilmbase12
+      - libdevil1c2
+      - libogg0
+      - libmpg123-0
+      - libtheora0
+      - libvorbisfile3
+      - libmodplug1
+      - libphysfs1
   launcher:
     plugin: dump
     source: ./launcher
