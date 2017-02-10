@@ -19,22 +19,22 @@ apps:
 
 parts:
 #  love0.10.2:
-#    plugin: copy
+#    plugin: dump
 #    source: https://bitbucket.org/rude/love/downloads/love_0.10.2ppa1_amd64.deb
 #  liblove0.10.2:
-#    plugin: copy
+#    plugin: dump
 #    source: https://bitbucket.org/rude/love/downloads/liblove0_0.10.2ppa1_amd64.deb
 #  love0.10.1:
-#    plugin: copy
+#    plugin: dump
 #    source: https://bitbucket.org/rude/love/downloads/love_0.10.1ppa1_amd64.deb
 #  liblove0.10.1:
-#    plugin: copy
+#    plugin: dump
 #    source: https://bitbucket.org/rude/love/downloads/liblove0_0.10.1ppa1_amd64.deb
 #  love0.10.0:
-#    plugin: copy
+#    plugin: dump
 #    source: https://bitbucket.org/rude/love/downloads/love_0.10.0ppa1_amd64.deb
 #  liblove0.10.0:
-#    plugin: copy
+#    plugin: dump
 #    source: https://bitbucket.org/rude/love/downloads/liblove0_0.10.0ppa1_amd64.deb
   love0.9.1:
     plugin: dump
